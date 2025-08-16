@@ -38,6 +38,9 @@ body {
     font-size: 1.2rem;
     cursor: pointer;
 }
+.hamburger-btn i {
+  pointer-events: none;
+}
 /* Sidebar Styles */
 .sidebar {
     width: var(--sidebar-width);
@@ -521,5 +524,6 @@ body {
         padding: 20px 15px;
     }
 }
+
 
 
