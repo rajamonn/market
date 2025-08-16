@@ -77,7 +77,7 @@ if (customForm) {
         const design = document.getElementById('design').value;
         const quantity = document.getElementById('quantity').value;
         
-        const whatsappUrl = `https://wa.me/6281234567890?text=Halo,%20saya%20${encodeURIComponent(name)}%20ingin%20memesan%20kaos%20custom:%0A%0ADesain:%20${encodeURIComponent(design)}%0AJumlah:%20${encodeURIComponent(quantity)}%0A%0AKontak:%20${encodeURIComponent(phone)}`;
+        const whatsappUrl = `https://wa.me/6283804058329?text=Halo,%20saya%20${encodeURIComponent(name)}%20ingin%20memesan%20kaos%20custom:%0A%0ADesain:%20${encodeURIComponent(design)}%0AJumlah:%20${encodeURIComponent(quantity)}%0A%0AKontak:%20${encodeURIComponent(phone)}`;
         
         window.open(whatsappUrl, '_blank');
     });
