@@ -41,6 +41,7 @@ body {
 .hamburger-btn i {
   pointer-events: none;
 }
+
 /* Sidebar Styles */
 .sidebar {
     width: var(--sidebar-width);
@@ -233,7 +234,7 @@ body {
     padding: 40px 20px;
     margin: 20px;
     border-radius: 10px;
-    background-image: url('https://placehold.co/1200x400/1e40af/ffffff?text=Buat+Kaos+Custom');
+    background-image: url(img/BK1.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -440,8 +441,8 @@ body {
 }
 
 .submit-btn {
-    width: 100%;
-    padding: 12px;
+    width: auto;
+    padding: 12px 24px;
     background: var(--primary-color);
     color: white;
     border: none;
@@ -524,6 +525,3 @@ body {
         padding: 20px 15px;
     }
 }
-
-
-
