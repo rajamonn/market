@@ -38,7 +38,9 @@ body {
     font-size: 1.2rem;
     cursor: pointer;
 }
-
+.hamburger-btn i {
+    pointer-events: none; /* ini yang bikin icon bisa ikut diklik */
+}
 /* Sidebar Styles */
 .sidebar {
     width: var(--sidebar-width);
@@ -522,3 +524,4 @@ body {
         padding: 20px 15px;
     }
 }
+
