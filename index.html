@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KA Apparel - Konveksi Berkualitas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Mobile Hamburger Button -->
+    <button class="hamburger-btn">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <a href="#" class="logo">
+                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/a517823b-1b69-497b-ba4a-aebcd3da656d.png" alt="Logo KA Apparel" />
+                <span class="logo-text">KA Apparel</span>
+            </a>
+            <button class="toggle-btn">
+                <i class="fas fa-angle-left"></i>
+            </button>
+        </div>
+
+        <div class="sidebar-menu">
+            <div class="menu-title">Menu Utama</div>
+            <a href="#" class="menu-item active">
+                <i class="menu-icon fas fa-home"></i>
+                <span>Beranda</span>
+            </a>
+            
+            <div class="menu-item with-submenu">
+                <i class="menu-icon fas fa-tshirt"></i>
+                <span>Produk Jadi</span>
+                <i class="fas fa-chevron-down menu-icon ml-auto submenu-toggler"></i>
+            </div>
+            
+            <div class="submenu show">
+                <a href="#" class="submenu-item">Semua Produk</a>
+                <a href="#" class="submenu-item active">Kaos</a>
+                <a href="#" class="submenu-item">Kemeja</a>
+                <a href="#" class="submenu-item">Hoodie</a>
+            </div>
+
+            <div class="menu-item">
+                <i class="menu-icon fas fa-pen-ruler"></i>
+                <span>Buat Kaos Custom</span>
+            </div>
+
+            <div class="menu-title">Hubungi Kami</div>
+            <a href="https://wa.me/6281234567890" class="menu-item" target="_blank">
+                <i class="menu-icon fab fa-whatsapp"></i>
+                <span>WhatsApp</span>
+            </a>
+
+            <a href="https://shopee.co.id/ka_apparel" class="menu-item" target="_blank">
+                <i class="menu-icon fas fa-store"></i>
+                <span>Toko Shopee</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Custom Project Banner -->
+        <div class="custom-project-banner">
+            <div class="banner-content">
+                <h3>Buat Kaos Custom</h3>
+                <p>Desain kaos sesuai keinginan Anda dengan bahan berkualitas</p>
+                <a href="#custom-form" class="custom-project-btn">Mulai Proyek</a>
+            </div>
+        </div>
+
+        <!-- Product Grid -->
+        <div class="products-container">
+            <!-- Product 1 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://placehold.co/600x400/e2e8f0/64748b?text=Kaos+Premium" alt="Kaos cotton combed premium">
+                    <span class="product-badge">BESTSELLER</span>
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">Kaos Cotton Combed Premium</h3>
+                    <div class="product-price">
+                        <span class="current-price">Rp85.000</span>
+                    </div>
+                    <div class="product-cta">
+                        <a href="https://wa.me/6281234567890?text=Saya%20tertarik%20dengan%20Kaos%20Cotton%20Combed%20Premium" class="whatsapp-btn" target="_blank">
+                            <i class="fab fa-whatsapp"></i> WhatsApp
+                        </a>
+                        <a href="https://shopee.co.id/ka_apparel/kaos-cotton-combed-premium" class="shoppe-btn" target="_blank">
+                            <i class="fas fa-store"></i> Shopee
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://placehold.co/600x400/e2e8f0/64748b?text=Kemeja+Oxford" alt="Kemeja slim fit oxford">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">Kemeja Slim Fit Oxford</h3>
+                    <div class="product-price">
+                        <span class="current-price">Rp175.000</span>
+                    </div>
+                    <div class="product-cta">
+                        <a href="https://wa.me/6281234567890?text=Saya%20tertarik%20dengan%20Kemeja%20Slim%20Fit%20Oxford" class="whatsapp-btn" target="_blank">
+                            <i class="fab fa-whatsapp"></i> WhatsApp
+                        </a>
+                        <a href="https://shopee.co.id/ka_apparel/kemeja-slim-fit-oxford" class="shoppe-btn" target="_blank">
+                            <i class="fas fa-store"></i> Shopee
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Custom Project Form -->
+        <div id="custom-form" class="custom-project-form">
+            <h2>Form Pesanan Kaos Custom</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Nama Lengkap</label>
+                    <input type="text" id="name" placeholder="Masukkan nama Anda">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Nomor WhatsApp</label>
+                    <input type="tel" id="phone" placeholder="Contoh: 081234567890">
+                </div>
+                <div class="form-group">
+                    <label for="design">Deskripsi Desain</label>
+                    <textarea id="design" placeholder="Jelaskan desain yang Anda inginkan"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="quantity">Jumlah Pesanan</label>
+                    <input type="number" id="quantity" placeholder="Contoh: 50">
+                </div>
+                <button type="submit" class="submit-btn">Kirim Permintaan</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
